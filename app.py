@@ -62,4 +62,4 @@ def index():
     return render_template('index.html', recipe=recipe_details, error=error)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8080)
+    app.run()
